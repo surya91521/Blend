@@ -3,15 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="Top Site Categories " />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="Top News Categories" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
@@ -20,10 +23,14 @@
             android:id="@+id/nav_tools"
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_tools" />
-    </group>
+            </group>
+        </menu>
+
+    </item>
 
     <item android:title="Communicate">
         <menu>
+            <group android:checkableBehavior="single">
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
@@ -32,7 +39,9 @@
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
                 android:title="@string/menu_send" />
+            </group>
         </menu>
+
     </item>
 
 </menu>

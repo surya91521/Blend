@@ -1,8 +1,11 @@
 package com.example.blend;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -29,7 +32,9 @@ public class MainActivity extends AppCompatActivity
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+
         navigationView.setNavigationItemSelectedListener(this);
+        displaySelectedScreen(R.id.nav_home);
     }
 
     @Override
@@ -57,9 +62,33 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-       
+
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void displaySelectedScreen(int id) {
+
+        Fragment fragment = null;
+         switch (id){
+             case R.id.nav_home:
+                 fragment = new Sites();
+                 break;
+
+             case R.id.nav_gallery:
+                 fragment = new News();
+                 break;
+         }
+
+        if(fragment!=null){
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.content_main,fragment);
+            ft.commit();
+        }
+
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
@@ -68,8 +97,10 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        displaySelectedScreen(id);
+
         if (id == R.id.nav_home) {
-            // Handle the camera action
+
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
@@ -78,12 +109,23 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_share) {
 
+            Intent intent = new Intent(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            String shareBody = "Multifunctional app with many features";
+            String shareSub = "Download the app";
+            intent.putExtra(Intent.EXTRA_SUBJECT,shareSub);
+            intent.putExtra(Intent.EXTRA_TEXT,shareBody);
+            startActivity(Intent.createChooser(intent,"Share Using"));
+
+
+
         } else if (id == R.id.nav_send) {
 
         }
 
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
+
         return true;
     }
+
+
 }
