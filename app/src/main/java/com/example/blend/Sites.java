@@ -11,17 +11,77 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
+
 public class Sites extends Fragment {
 
     private RecyclerView rv;
-    private  static String[] categories={"Anime","Food","Coding","Shopping","Fitness","Kids Learning","Songs","Movies","Games","Jobs","Heath Care"};
-   /* private int [] images = {R.drawable.anime,R.drawable.coding, R.drawable.food ,R.drawable.fitness , R.drawable.games
-                              , R.drawable.healthcare , R.drawable.jobs , R.drawable.kids ,R.drawable.movies, R.drawable.shop, R.drawable.songs};*/
 
     public static Sites newInstance()
     {
         Sites sites = new Sites();
         return sites;
+    }
+
+    private ArrayList<Model> getMyList(){
+
+        ArrayList<Model> models= new ArrayList<>();
+        Model m = new Model();
+        m.setCateg("Anime");
+        m.setImg(R.drawable.anime);
+        models.add(m);
+
+        m = new Model();
+        m.setCateg("Coding");
+        m.setImg(R.drawable.coding);
+        models.add(m);
+
+        m = new Model();
+        m.setCateg("Food");
+        m.setImg(R.drawable.food);
+        models.add(m);
+
+        m = new Model();
+        m.setCateg("Fitness");
+        m.setImg(R.drawable.fitness);
+        models.add(m);
+
+        m = new Model();
+        m.setCateg("Games");
+        m.setImg(R.drawable.games);
+        models.add(m);
+
+        m = new Model();
+        m.setCateg("Health Care");
+        m.setImg(R.drawable.healthcare);
+        models.add(m);
+
+        m = new Model();
+        m.setCateg("Jobs");
+        m.setImg(R.drawable.jobs);
+        models.add(m);
+
+        m = new Model();
+        m.setCateg("Kids");
+        m.setImg(R.drawable.kids);
+        models.add(m);
+
+        m = new Model();
+        m.setCateg("Movies");
+        m.setImg(R.drawable.movies);
+        models.add(m);
+
+        m = new Model();
+        m.setCateg("Shops");
+        m.setImg(R.drawable.shop);
+        models.add(m);
+
+        m = new Model();
+        m.setCateg("Songs");
+        m.setImg(R.drawable.songs);
+        models.add(m);
+
+        return models;
     }
 
 
@@ -31,8 +91,10 @@ public class Sites extends Fragment {
         View rootView = inflater.inflate(R.layout.sites,null);
         rv = (RecyclerView) rootView.findViewById(R.id.Sites);
         rv.setLayoutManager(new LinearLayoutManager(getActivity()));
-        rv.setAdapter(new MyAdapter(getActivity(),categories));
+        rv.setAdapter(new MyAdapter(getActivity(),getMyList()));
         return rootView;
+
+
     }
 
     @Override
@@ -42,10 +104,14 @@ public class Sites extends Fragment {
         getActivity().setTitle("Sites Categories");
 
 
+
+
     }
 
     @Override
     public String toString() {
         return "Sites";
     }
+
+
 }

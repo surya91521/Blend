@@ -16,7 +16,6 @@
 
         <ImageView
             android:id="@+id/Anime"
-            android:src="@drawable/jobs"
             android:scaleType="fitXY"
             android:layout_width="match_parent"
             android:layout_height="250dp" />
