@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:padding="5dp"
-    app:cardCornerRadius="5dp">
+    android:elevation="15dp"
+    android:layout_marginBottom="10dp">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
         android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Anime"
+            android:src="@drawable/jobs"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
 
         <TextView
             android:id="@+id/anime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center" />
+            android:layout_alignStart="@+id/Anime"
+            android:layout_alignEnd="@+id/Anime"
+            android:layout_alignBottom="@+id/Anime"
+            android:layout_marginStart="-1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="0dp"
+            android:background="#F9F8FD"
+            android:foregroundGravity="bottom|center"
+            android:gravity="bottom|center"
+            android:textSize="23dp"
+            android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/Anime"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
 
-    </LinearLayout>
+    </RelativeLayout>
 
 </android.support.v7.widget.CardView>

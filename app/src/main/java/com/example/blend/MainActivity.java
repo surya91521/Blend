@@ -101,6 +101,8 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_home) {
 
+             MainActivity.this.getSupportFragmentManager().beginTransaction().replace(R.id.content_main,Sites.newInstance()).commit();
+
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
@@ -123,6 +125,8 @@ public class MainActivity extends AppCompatActivity
 
         }
 
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
 
         return true;
     }
