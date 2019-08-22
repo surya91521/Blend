@@ -26,9 +26,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.RecyclerVH> {
 
     }
 
-
-
-
     @NonNull
     @Override
     public MyAdapter.RecyclerVH onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
