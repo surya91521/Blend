@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="10dp"
+    android:id="@+id/intent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:elevation="30dp"
     android:layout_marginTop="20dp">
@@ -29,6 +30,7 @@
             android:layout_alignBottom="@+id/Anime"
             android:layout_marginStart="-1dp"
             android:layout_marginEnd="1dp"
+            android:autoLink="all"
             android:layout_marginBottom="0dp"
             android:background="#F9F8FD"
             android:foregroundGravity="bottom|center"
