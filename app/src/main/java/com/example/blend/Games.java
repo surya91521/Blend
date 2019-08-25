@@ -9,6 +9,9 @@ import java.util.ArrayList;
 
 public class Games extends AppCompatActivity {
 
+
+
+
     private ArrayList<Model> getMyList(){
 
         ArrayList<Model> models= new ArrayList<>();
@@ -69,7 +72,6 @@ public class Games extends AppCompatActivity {
 
         return models;
     }
-
 
 
 

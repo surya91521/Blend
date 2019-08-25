@@ -13,57 +13,57 @@ public class Coding extends AppCompatActivity {
 
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
-        m.setCateg("akdkajsdkaj");
+        m.setCateg("https://www.hackerrank.com");
         m.setImg(R.drawable.anime);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Coding");
+        m.setCateg("https://www.codechef.com");
         m.setImg(R.drawable.coding);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Food");
+        m.setCateg("https://codeforces.com");
         m.setImg(R.drawable.food);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Fitness");
+        m.setCateg("https://a2oj.com");
         m.setImg(R.drawable.fitness);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Games");
+        m.setCateg("https://www.topcoder.com");
         m.setImg(R.drawable.games);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Health Care");
+        m.setCateg("https://www.coderbyte.com");
         m.setImg(R.drawable.healthcare);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Jobs");
+        m.setCateg("https://www.hirevue.com");
         m.setImg(R.drawable.jobs);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Kids");
+        m.setCateg("https://www.codewars.com");
         m.setImg(R.drawable.kids);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Movies");
+        m.setCateg("https://leetcode.com");
         m.setImg(R.drawable.movies);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Shops");
+        m.setCateg("https://www.spoj.com");
         m.setImg(R.drawable.shop);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Songs");
+        m.setCateg("https://www.codingame.com/start");
         m.setImg(R.drawable.songs);
         models.add(m);
 

@@ -13,57 +13,57 @@ public class Shops extends AppCompatActivity {
 
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
-        m.setCateg("Anime");
+        m.setCateg("https://www.amazon.in");
         m.setImg(R.drawable.anime);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Coding");
+        m.setCateg("https://www.flipkart.com");
         m.setImg(R.drawable.coding);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Food");
+        m.setCateg("https://www.snapdeal.com");
         m.setImg(R.drawable.food);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Fitness");
+        m.setCateg("https://www.myntra.com");
         m.setImg(R.drawable.fitness);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Games");
+        m.setCateg("https://www.jabong.com");
         m.setImg(R.drawable.games);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Health Care");
+        m.setCateg("https://www.shopclues.com");
         m.setImg(R.drawable.healthcare);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Jobs");
+        m.setCateg("https://www.homeshop18.com");
         m.setImg(R.drawable.jobs);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Kids");
+        m.setCateg("https://www.limeroad.com");
         m.setImg(R.drawable.kids);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Movies");
+        m.setCateg("https://in.ebay.com");
         m.setImg(R.drawable.movies);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Shops");
+        m.setCateg("https://best.aliexpress.com");
         m.setImg(R.drawable.shop);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Songs");
+        m.setCateg("https://www.naaptol.com");
         m.setImg(R.drawable.songs);
         models.add(m);
 

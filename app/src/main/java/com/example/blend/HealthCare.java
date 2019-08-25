@@ -13,57 +13,57 @@ public class HealthCare extends AppCompatActivity {
 
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
-        m.setCateg("Anime");
+        m.setCateg("https://www.nih.gov");
         m.setImg(R.drawable.anime);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Coding");
+        m.setCateg("https://www.webmd.com/default.htm");
         m.setImg(R.drawable.coding);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Food");
+        m.setCateg("https://kidshealth.org");
         m.setImg(R.drawable.food);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Fitness");
+        m.setCateg("https://www.drugs.com");
         m.setImg(R.drawable.fitness);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Games");
+        m.setCateg("https://www.weightwatchers.com/us/");
         m.setImg(R.drawable.games);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Health Care");
+        m.setCateg("https://www.netdoctor.co.uk");
         m.setImg(R.drawable.healthcare);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Jobs");
+        m.setCateg("https://www.menshealth.com");
         m.setImg(R.drawable.jobs);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Kids");
+        m.setCateg("https://www.healthline.com");
         m.setImg(R.drawable.kids);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Movies");
+        m.setCateg("https://www.mayoclinic.org");
         m.setImg(R.drawable.movies);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Shops");
+        m.setCateg("https://www.cdc.gov");
         m.setImg(R.drawable.shop);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Songs");
+        m.setCateg("https://www.medicinenet.com");
         m.setImg(R.drawable.songs);
         models.add(m);
 

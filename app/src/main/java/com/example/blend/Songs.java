@@ -13,57 +13,57 @@ public class Songs extends AppCompatActivity {
 
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
-        m.setCateg("Anime");
+        m.setCateg("https://www.amoyshare.com/free-mp3-finder/");
         m.setImg(R.drawable.anime);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Coding");
+        m.setCateg("https://www.mp3juices.cc");
         m.setImg(R.drawable.coding);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Food");
+        m.setCateg("https://mp3skulls.to");
         m.setImg(R.drawable.food);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Fitness");
+        m.setCateg("http://beemp3s.org/");
         m.setImg(R.drawable.fitness);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Games");
+        m.setCateg("https://www.emp3t.com");
         m.setImg(R.drawable.games);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Health Care");
+        m.setCateg("https://songspk3.org");
         m.setImg(R.drawable.healthcare);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Jobs");
+        m.setCateg("https://www.mp3mad.biz");
         m.setImg(R.drawable.jobs);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Kids");
+        m.setCateg("https://freemusicdownloads.world");
         m.setImg(R.drawable.kids);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Movies");
+        m.setCateg("https://freemp3downloads.online");
         m.setImg(R.drawable.movies);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Shops");
+        m.setCateg("https://free-mp3-download.net");
         m.setImg(R.drawable.shop);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Songs");
+        m.setCateg("https://my-free-mp3s.com/");
         m.setImg(R.drawable.songs);
         models.add(m);
 

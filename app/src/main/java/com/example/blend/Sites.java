@@ -43,7 +43,7 @@ public class Sites extends Fragment {
         models.add(m);
 
         m = new Model();
-        m.setCateg("Food");
+        m.setCateg("Food Recipes");
         m.setImg(R.drawable.food);
         models.add(m);
 
@@ -63,12 +63,12 @@ public class Sites extends Fragment {
         models.add(m);
 
         m = new Model();
-        m.setCateg("Jobs");
+        m.setCateg("Jobs Search");
         m.setImg(R.drawable.jobs);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Kids");
+        m.setCateg("Kids Learning");
         m.setImg(R.drawable.kids);
         models.add(m);
 
