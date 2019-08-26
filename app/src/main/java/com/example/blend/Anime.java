@@ -14,7 +14,7 @@ public class Anime extends AppCompatActivity {
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
         m.setCateg("https://9anime.to");
-        m.setImg(R.drawable.anime);
+        m.setImg(R.drawable.goanime);
         models.add(m);
 
         m = new Model();
