@@ -13,57 +13,57 @@ public class Movies extends AppCompatActivity {
 
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
-        m.setCateg("Anime");
+        m.setCateg("https://cmovies.co");
         m.setImg(R.drawable.anime);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Coding");
+        m.setCateg("http://www.foxmovies.pro");
         m.setImg(R.drawable.coding);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Food");
+        m.setCateg("https://movie.worldtv24.us");
         m.setImg(R.drawable.food);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Fitness");
+        m.setCateg("https://www9.0123movies.com");
         m.setImg(R.drawable.fitness);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Games");
+        m.setCateg("https://www.moviego.site");
         m.setImg(R.drawable.games);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Health Care");
+        m.setCateg("https://go.filmhd4u.com");
         m.setImg(R.drawable.healthcare);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Jobs");
+        m.setCateg("https://putlocker.kz");
         m.setImg(R.drawable.jobs);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Kids");
+        m.setCateg("https://gomoviesfree.sc");
         m.setImg(R.drawable.kids);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Movies");
+        m.setCateg("https://01fmovies.com");
         m.setImg(R.drawable.movies);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Shops");
+        m.setCateg("https://www.123moviesla.com");
         m.setImg(R.drawable.shop);
         models.add(m);
 
         m = new Model();
-        m.setCateg("Songs");
+        m.setCateg("https://filmyanju.co");
         m.setImg(R.drawable.songs);
         models.add(m);
 
