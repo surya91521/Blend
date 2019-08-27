@@ -14,47 +14,47 @@ public class Kids extends AppCompatActivity {
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
         m.setCateg("https://www.curiousworld.com");
-        m.setImg(R.drawable.anime);
+        m.setImg(R.drawable.cur);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://pbskids.org");
-        m.setImg(R.drawable.coding);
+        m.setImg(R.drawable.pbs);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.babytv.com");
-        m.setImg(R.drawable.food);
+        m.setImg(R.drawable.bab);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.funbrain.com");
-        m.setImg(R.drawable.fitness);
+        m.setImg(R.drawable.fun);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.abcmouse.com");
-        m.setImg(R.drawable.games);
+        m.setImg(R.drawable.mous);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://kids.nationalgeographic.com");
-        m.setImg(R.drawable.healthcare);
+        m.setImg(R.drawable.ngk);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.brainpop.com");
-        m.setImg(R.drawable.jobs);
+        m.setImg(R.drawable.bpop);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.farfaria.com");
-        m.setImg(R.drawable.kids);
+        m.setImg(R.drawable.far);
         models.add(m);
 
         m = new Model();
         m.setCateg("http://www.agnitus.com");
-        m.setImg(R.drawable.movies);
+        m.setImg(R.drawable.agn);
         models.add(m);
 
 

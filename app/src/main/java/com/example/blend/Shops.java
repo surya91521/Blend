@@ -14,57 +14,57 @@ public class Shops extends AppCompatActivity {
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
         m.setCateg("https://www.amazon.in");
-        m.setImg(R.drawable.anime);
+        m.setImg(R.drawable.amz);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.flipkart.com");
-        m.setImg(R.drawable.coding);
+        m.setImg(R.drawable.flip);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.snapdeal.com");
-        m.setImg(R.drawable.food);
+        m.setImg(R.drawable.snap);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.myntra.com");
-        m.setImg(R.drawable.fitness);
+        m.setImg(R.drawable.myn);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.jabong.com");
-        m.setImg(R.drawable.games);
+        m.setImg(R.drawable.jab);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.shopclues.com");
-        m.setImg(R.drawable.healthcare);
+        m.setImg(R.drawable.clue);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.homeshop18.com");
-        m.setImg(R.drawable.jobs);
+        m.setImg(R.drawable.hom);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.limeroad.com");
-        m.setImg(R.drawable.kids);
+        m.setImg(R.drawable.lime);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://in.ebay.com");
-        m.setImg(R.drawable.movies);
+        m.setImg(R.drawable.ebay);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://best.aliexpress.com");
-        m.setImg(R.drawable.shop);
+        m.setImg(R.drawable.ali);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.naaptol.com");
-        m.setImg(R.drawable.songs);
+        m.setImg(R.drawable.naap);
         models.add(m);
 
         return models;
