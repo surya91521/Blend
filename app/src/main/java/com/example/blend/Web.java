@@ -40,6 +40,7 @@ public class Web extends AppCompatActivity {
             }else {
                  Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                  startActivity(intent);
+
                  return true;
              }
         }

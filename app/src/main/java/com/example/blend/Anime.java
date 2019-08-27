@@ -14,52 +14,52 @@ public class Anime extends AppCompatActivity {
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
         m.setCateg("https://9anime.to");
-        m.setImg(R.drawable.goanime);
+        m.setImg(R.drawable.ani);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www9.gogoanime.io");
-        m.setImg(R.drawable.coding);
+        m.setImg(R.drawable.goo);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.crunchyroll.com");
-        m.setImg(R.drawable.food);
+        m.setImg(R.drawable.crunch);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://kissanime.ru");
-        m.setImg(R.drawable.fitness);
+        m.setImg(R.drawable.kiss);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://animefrenzy.net");
-        m.setImg(R.drawable.games);
+        m.setImg(R.drawable.frenzy);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.animefreak.tv");
-        m.setImg(R.drawable.healthcare);
+        m.setImg(R.drawable.freak);
         models.add(m);
 
         m = new Model();
         m.setCateg("http://www1.chia-anime.com/");
-        m.setImg(R.drawable.jobs);
+        m.setImg(R.drawable.chia);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://animedao.com");
-        m.setImg(R.drawable.kids);
+        m.setImg(R.drawable.dao);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.anime-planet.com");
-        m.setImg(R.drawable.movies);
+        m.setImg(R.drawable.plan);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://ww1.kuroani.me");
-        m.setImg(R.drawable.shop);
+        m.setImg(R.drawable.kuro);
         models.add(m);
 
         m = new Model();
