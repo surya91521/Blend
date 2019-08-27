@@ -14,57 +14,57 @@ public class Fitness extends AppCompatActivity {
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
         m.setCateg("https://mennohenselmans.com");
-        m.setImg(R.drawable.anime);
+        m.setImg(R.drawable.men);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.12minuteathlete.com");
-        m.setImg(R.drawable.coding);
+        m.setImg(R.drawable.min);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.ontheregimen.com");
-        m.setImg(R.drawable.food);
+        m.setImg(R.drawable.gi);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.syattfitness.com");
-        m.setImg(R.drawable.fitness);
+        m.setImg(R.drawable.sya);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.summertomato.com");
-        m.setImg(R.drawable.games);
+        m.setImg(R.drawable.tom);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://fatburningman.com");
-        m.setImg(R.drawable.healthcare);
+        m.setImg(R.drawable.fat);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://johnfawkes.com");
-        m.setImg(R.drawable.jobs);
+        m.setImg(R.drawable.john);
         models.add(m);
 
         m = new Model();
         m.setCateg("http://www.lookgreatnaked.com");
-        m.setImg(R.drawable.kids);
+        m.setImg(R.drawable.great);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://bachperformance.com");
-        m.setImg(R.drawable.movies);
+        m.setImg(R.drawable.bach);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://strengthsensei.com");
-        m.setImg(R.drawable.shop);
+        m.setImg(R.drawable.sen);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.marksdailyapple.com");
-        m.setImg(R.drawable.songs);
+        m.setImg(R.drawable.ma);
         models.add(m);
 
         return models;
