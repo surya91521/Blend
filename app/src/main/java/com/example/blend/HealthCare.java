@@ -14,57 +14,57 @@ public class HealthCare extends AppCompatActivity {
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
         m.setCateg("https://www.nih.gov");
-        m.setImg(R.drawable.anime);
+        m.setImg(R.drawable.ni);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.webmd.com/default.htm");
-        m.setImg(R.drawable.coding);
+        m.setImg(R.drawable.md);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://kidshealth.org");
-        m.setImg(R.drawable.food);
+        m.setImg(R.drawable.hea);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.drugs.com");
-        m.setImg(R.drawable.fitness);
+        m.setImg(R.drawable.dru);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.weightwatchers.com/us/");
-        m.setImg(R.drawable.games);
+        m.setImg(R.drawable.wei);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.netdoctor.co.uk");
-        m.setImg(R.drawable.healthcare);
+        m.setImg(R.drawable.nee);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.menshealth.com");
-        m.setImg(R.drawable.jobs);
+        m.setImg(R.drawable.me);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.healthline.com");
-        m.setImg(R.drawable.kids);
+        m.setImg(R.drawable.heal);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.mayoclinic.org");
-        m.setImg(R.drawable.movies);
+        m.setImg(R.drawable.mayo);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.cdc.gov");
-        m.setImg(R.drawable.shop);
+        m.setImg(R.drawable.sdc);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.medicinenet.com");
-        m.setImg(R.drawable.songs);
+        m.setImg(R.drawable.med);
         models.add(m);
 
         return models;

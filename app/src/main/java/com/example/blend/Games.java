@@ -16,52 +16,52 @@ public class Games extends AppCompatActivity {
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
         m.setCateg("http://oceanofgames.com/");
-        m.setImg(R.drawable.anime);
+        m.setImg(R.drawable.ocea);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://store.steampowered.com");
-        m.setImg(R.drawable.coding);
+        m.setImg(R.drawable.steam);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://games.softpedia.com");
-        m.setImg(R.drawable.food);
+        m.setImg(R.drawable.soft);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.ea.com");
-        m.setImg(R.drawable.fitness);
+        m.setImg(R.drawable.ea);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.skidrowreloaded.com");
-        m.setImg(R.drawable.games);
+        m.setImg(R.drawable.ski);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.origin.com/usa/en-us/");
-        m.setImg(R.drawable.healthcare);
+        m.setImg(R.drawable.ori);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://thepcgames.net");
-        m.setImg(R.drawable.jobs);
+        m.setImg(R.drawable.pc);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://pcgameslab.net");
-        m.setImg(R.drawable.kids);
+        m.setImg(R.drawable.lab);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://en.softonic.com");
-        m.setImg(R.drawable.movies);
+        m.setImg(R.drawable.soo);
         models.add(m);
 
         m = new Model();
         m.setCateg("http://www.friv.com");
-        m.setImg(R.drawable.shop);
+        m.setImg(R.drawable.frin);
         models.add(m);
 
 

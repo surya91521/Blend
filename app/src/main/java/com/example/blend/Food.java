@@ -14,57 +14,57 @@ public class Food extends AppCompatActivity {
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
         m.setCateg("https://www.allrecipes.com");
-        m.setImg(R.drawable.anime);
+        m.setImg(R.drawable.reci);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.thekitchn.com");
-        m.setImg(R.drawable.coding);
+        m.setImg(R.drawable.it);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.food.com");
-        m.setImg(R.drawable.food);
+        m.setImg(R.drawable.foo);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.foodnetwork.com");
-        m.setImg(R.drawable.fitness);
+        m.setImg(R.drawable.fon);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.cookinglight.com");
-        m.setImg(R.drawable.games);
+        m.setImg(R.drawable.col);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.yummly.com");
-        m.setImg(R.drawable.healthcare);
+        m.setImg(R.drawable.yum);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.epicurious.com");
-        m.setImg(R.drawable.jobs);
+        m.setImg(R.drawable.epi);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.bettycrocker.com");
-        m.setImg(R.drawable.kids);
+        m.setImg(R.drawable.bet);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.cooks.com");
-        m.setImg(R.drawable.movies);
+        m.setImg(R.drawable.cok);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.chowhound.com");
-        m.setImg(R.drawable.shop);
+        m.setImg(R.drawable.chow);
         models.add(m);
 
         m = new Model();
         m.setCateg("http://www.eatingwell.com");
-        m.setImg(R.drawable.songs);
+        m.setImg(R.drawable.well);
         models.add(m);
 
         return models;
