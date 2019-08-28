@@ -11,46 +11,76 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Songs"
-            android:label="Songs" >
-        </activity>
-        <activity android:name=".Shops"
-            android:label="Shopping"/>
-        <activity android:name=".Movies"
-            android:label="Movies"/>
-        <activity android:name=".Kids"
-            android:label="Kids Learning"/>
-        <activity android:name=".Jobs"
-            android:label="Jobs Search"/>
-        <activity android:name=".HealthCare"
-            android:label="Health Care"/>
-        <activity android:name=".Games"
-            android:label="Games"/>
-        <activity android:name=".Fitness"
-            android:label="Fitness"/>
-        <activity android:name=".Food"
-            android:label="Food Recipes"/>
-        <activity android:name=".Anime"
-            android:label="Anime"/>
-        <activity android:name=".Coding"
-            android:label="Coding"/>
-        <activity android:name=".Web7" />
-        <activity android:name=".Web6" />
-        <activity android:name=".Web5" />
-        <activity android:name=".Web4" />
-        <activity android:name=".Web3" />
-        <activity android:name=".Web2" />
-        <activity android:name=".Web1" />
-        <activity android:name=".Web" />
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Splash"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Songs"
+            android:label="Songs"></activity>
+        <activity
+            android:name=".Shops"
+            android:label="Shopping" />
+        <activity
+            android:name=".Movies"
+            android:label="Movies" />
+        <activity
+            android:name=".Kids"
+            android:label="Kids Learning" />
+        <activity
+            android:name=".Jobs"
+            android:label="Jobs Search" />
+        <activity
+            android:name=".HealthCare"
+            android:label="Health Care" />
+        <activity
+            android:name=".Games"
+            android:label="Games" />
+        <activity
+            android:name=".Fitness"
+            android:label="Fitness" />
+        <activity
+            android:name=".Food"
+            android:label="Food Recipes" />
+        <activity
+            android:name=".Anime"
+            android:label="Anime" />
+        <activity
+            android:name=".Coding"
+            android:label="Coding" />
+        <activity
+            android:name=".Web7"
+            android:label="Education " />
+        <activity
+            android:name=".Web6"
+            android:label="Entetainment " />
+        <activity
+            android:name=".Web5"
+            android:label="Sports " />
+        <activity
+            android:name=".Web4"
+            android:label="Lifestyle" />
+        <activity
+            android:name=".Web3"
+            android:label="Tech News" />
+        <activity
+            android:name=".Web2"
+            android:label="Buisness  " />
+        <activity
+            android:name=".Web1"
+            android:label="World " />
+        <activity
+            android:name=".Web"
+            android:label="India" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
         </activity>
     </application>
 

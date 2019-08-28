@@ -78,7 +78,7 @@ public class Sites extends Fragment {
         models.add(m);
 
         m = new Model();
-        m.setCateg("Shops");
+        m.setCateg("Shopping");
         m.setImg(R.drawable.shop);
         models.add(m);
 

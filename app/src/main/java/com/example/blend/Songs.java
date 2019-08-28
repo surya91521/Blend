@@ -14,57 +14,57 @@ public class Songs extends AppCompatActivity {
         ArrayList<Model> models= new ArrayList<>();
         Model m = new Model();
         m.setCateg("https://www.amoyshare.com/free-mp3-finder/");
-        m.setImg(R.drawable.anime);
+        m.setImg(R.drawable.find);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.mp3juices.cc");
-        m.setImg(R.drawable.coding);
+        m.setImg(R.drawable.jui);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://mp3skulls.to");
-        m.setImg(R.drawable.food);
+        m.setImg(R.drawable.skull);
         models.add(m);
 
         m = new Model();
         m.setCateg("http://beemp3s.org/");
-        m.setImg(R.drawable.fitness);
+        m.setImg(R.drawable.bee);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.emp3t.com");
-        m.setImg(R.drawable.games);
+        m.setImg(R.drawable.emp);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://songspk3.org");
-        m.setImg(R.drawable.healthcare);
+        m.setImg(R.drawable.sooo);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://www.mp3mad.biz");
-        m.setImg(R.drawable.jobs);
+        m.setImg(R.drawable.mad);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://freemusicdownloads.world");
-        m.setImg(R.drawable.kids);
+        m.setImg(R.drawable.frrm);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://freemp3downloads.online");
-        m.setImg(R.drawable.movies);
+        m.setImg(R.drawable.mppp);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://free-mp3-download.net");
-        m.setImg(R.drawable.shop);
+        m.setImg(R.drawable.mpu);
         models.add(m);
 
         m = new Model();
         m.setCateg("https://my-free-mp3s.com/");
-        m.setImg(R.drawable.songs);
+        m.setImg(R.drawable.fremp  );
         models.add(m);
 
         return models;
