@@ -63,8 +63,8 @@ public class Anime extends AppCompatActivity {
         models.add(m);
 
         m = new Model();
-        m.setCateg("https://animeyoutube.com");
-        m.setImg(R.drawable.songs);
+        m.setCateg("https://animekarma.com");
+        m.setImg(R.drawable.kar);
         models.add(m);
 
         return models;
