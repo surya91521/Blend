@@ -83,5 +83,7 @@ public class Anime extends AppCompatActivity {
         RecyclerView list = (RecyclerView)findViewById(R.id.Animes);
         list.setLayoutManager(new LinearLayoutManager(this));
         list.setAdapter(new MyAdapter1(this,getMyList()));
+
+
     }
 }

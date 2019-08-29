@@ -78,6 +78,10 @@ public class MainActivity extends AppCompatActivity
              case R.id.nav_gallery:
                  fragment = new News();
                  break;
+
+             case R.id.nav_slideshow:
+                 fragment = new Facts();
+                 break;
          }
 
         if(fragment!=null){
