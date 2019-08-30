@@ -4,10 +4,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.ImageView;
 
 import java.util.ArrayList;
 
 public class Anime extends AppCompatActivity {
+
+
 
     private ArrayList<Model> getMyList(){
 
@@ -83,6 +86,7 @@ public class Anime extends AppCompatActivity {
         RecyclerView list = (RecyclerView)findViewById(R.id.Animes);
         list.setLayoutManager(new LinearLayoutManager(this));
         list.setAdapter(new MyAdapter1(this,getMyList()));
+
 
 
     }

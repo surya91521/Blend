@@ -21,6 +21,7 @@
     <style name="Splash" parent="AppTheme.NoActionBar">
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimaryDark">#0575E6</item>
 
     </style>
 

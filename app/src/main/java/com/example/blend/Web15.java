@@ -2,6 +2,7 @@ package com.example.blend;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
@@ -21,7 +22,10 @@ public class Web15 extends AppCompatActivity {
         webView = (WebView)findViewById(R.id.webView);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webView.loadUrl("https://www.insider.com/amazing-food-facts-2017-12");
+        webView.loadUrl("https://www.sotruefacts.com/food-and-drinks/");
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            webView.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+        }
 
         webView.setWebViewClient(new MyWebViewClient());
 
@@ -33,7 +37,7 @@ public class Web15 extends AppCompatActivity {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
 
-            if(Uri.parse(url).getHost().endsWith("www.insider.com"))
+            if(Uri.parse(url).getHost().endsWith("www.sotruefacts.com"))
             {
                 return false;
             }else {
