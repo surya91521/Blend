@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class Anime extends AppCompatActivity {
 
-
+        ImageView imageView;
 
     private ArrayList<Model> getMyList(){
 
