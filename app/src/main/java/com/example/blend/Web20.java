@@ -3,14 +3,14 @@ package com.example.blend;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class Web8 extends AppCompatActivity {
+public class Web20 extends AppCompatActivity {
 
     private WebView webView;
 
@@ -22,7 +22,7 @@ public class Web8 extends AppCompatActivity {
         webView = (WebView)findViewById(R.id.webView);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webView.loadUrl("http://www.funny2.com/facts.htm");
+        webView.loadUrl("https://www.google.com/doodles/halloween-2018");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             webView.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
         }
@@ -32,12 +32,12 @@ public class Web8 extends AppCompatActivity {
     }
 
 
-    private class MyWebViewClient extends WebViewClient {
+    class MyWebViewClient extends WebViewClient {
 
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
 
-            if(Uri.parse(url).getHost().endsWith("www.funny2.com"))
+            if(Uri.parse(url).getHost().endsWith("www.google.com"))
             {
                 return false;
             }else {

@@ -12,6 +12,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity android:name=".Web23"
+            android:label="Sudoku"></activity>
+        <activity android:name=".Web22"
+            android:label="Falling Cloud"></activity>
+        <activity android:name=".Web21"
+            android:label="Magic Cat"></activity>
+        <activity android:name=".Web20"
+            android:label="Ghost-Duel"></activity>
+        <activity android:name=".Web19"
+            android:label="Garden Gnomes"></activity>
+        <activity android:name=".Web18"
+            android:label="T-Rex"></activity>
+        <activity android:name=".Web17"
+            android:label="Flappy Bird"></activity>
+        <activity android:name=".Web16"
+            android:label="Pac-Man"></activity>
         <activity android:name=".Web15"
             android:label="Food"></activity>
         <activity android:name=".Web14"
@@ -19,7 +36,7 @@
         <activity android:name=".Web13"
             android:label="Phobia"></activity>
         <activity android:name=".Web12"
-            android:label="Ineventions"></activity>
+            android:label="Inventions"></activity>
         <activity android:name=".Web11"
             android:label="Space"></activity>
         <activity android:name=".Web10"

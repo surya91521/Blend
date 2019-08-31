@@ -82,6 +82,10 @@ public class MainActivity extends AppCompatActivity
              case R.id.nav_slideshow:
                  fragment = new Facts();
                  break;
+
+             case R.id.nav_tools:
+                 fragment = new Mini();
+                 break;
          }
 
         if(fragment!=null){
