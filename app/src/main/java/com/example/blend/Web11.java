@@ -22,7 +22,7 @@ public class Web11 extends AppCompatActivity {
         webView = (WebView)findViewById(R.id.webView);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webView.loadUrl("https://www.thedailyresearch.com/space-facts/");
+        webView.loadUrl("https://www.thefactsite.com/space/");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             webView.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
         }
@@ -37,7 +37,7 @@ public class Web11 extends AppCompatActivity {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
 
-            if(Uri.parse(url).getHost().endsWith("www.thedailyresearch.com"))
+            if(Uri.parse(url).getHost().endsWith("www.thefactsite.com"))
             {
                 return false;
             }else {
