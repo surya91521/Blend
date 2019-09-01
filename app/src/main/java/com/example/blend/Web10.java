@@ -22,7 +22,7 @@ public class Web10 extends AppCompatActivity {
         webView = (WebView)findViewById(R.id.webView);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webView.loadUrl("https://www.thefactsite.com/300-random-animal-facts/");
+        webView.loadUrl("https://www.thefactsite.com/animals/");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             webView.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
         }

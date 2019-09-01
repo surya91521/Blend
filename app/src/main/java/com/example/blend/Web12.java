@@ -9,7 +9,6 @@ import android.view.KeyEvent;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-
 public class Web12 extends AppCompatActivity {
 
     private WebView webView;
